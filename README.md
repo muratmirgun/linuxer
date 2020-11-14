@@ -1,5 +1,5 @@
-# ARCH Install Script
-
+# Linux Install Scripts
+## Ubuntu script , arch prep script and blackarch repo add scripts 
 <code>strap.sh</code>  dosyası ile blackarch keyring yüklemesi yapabilirsin.
 edit command '#' lines and select packages
 ## packages including
