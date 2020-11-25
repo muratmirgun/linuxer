@@ -11,7 +11,7 @@ sudo pacman --noconfirm -S neofetch
 sudo pacman --noconfirm -S curl
 
 # git and yay
-# sudo pacman --noconfirm -S git
+sudo pacman --noconfirm -S git
 cd ~/
 mkdir packages
 cd packages
@@ -28,7 +28,7 @@ yay --noconfirm -S ttf-scientifica
 # sudo pacman --noconfirm -S xf86-video-amdgpu
 
 # for nvidia
-#sudo pacman --noconfirm -S nvidia nvidia-utils
+sudo pacman --noconfirm -S nvidia nvidia-utils
 
 # for intel
 # sudo pacman --noconfirm -S xf86-video-intel
@@ -38,7 +38,7 @@ yay --noconfirm -S ttf-scientifica
 # bspwm 
 # sudo pacman --noconfirm -S xorg xorg-xinit bspwm picom polybar sxhkd
 #for multiple monitors
-# sudo pacman --noconfirm -S arandr
+sudo pacman --noconfirm -S arandr
 
 # for dmenu
 # sudo pacman --noconfirm -S dmenu 
@@ -57,7 +57,7 @@ yay --noconfirm -S ttf-scientifica
 sudo pacman --noconfirm -S alacritty
 
 # wallpaper
-#sudo pacman --noconfirm -S nitrogen
+sudo pacman --noconfirm -S nitrogen
 
 # file managers
 #yay --noconfirm -S lf
@@ -97,7 +97,7 @@ sudo pacman --noconfirm -S libreoffice
 sudo pacman --noconfirm -S htop
 
 # for programming languages
-sudo pacman --noconfirm -S python python-pip #go rust elixir 
+sudo pacman --noconfirm -S python python-pip go rust elixir nim
 
 # for calc
 sudo pacman --noconfirm -S kclac
