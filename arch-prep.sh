@@ -83,6 +83,10 @@ sudo pacman --noconfirm -S firefox
 # gui code editor
 sudo pacman --noconfirm -S code
 
+# spotify
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
+sudo pacman --noconfirm -S spotify
+
 # for archiving tools
 sudo pacman --noconfirm -S unzip unrar ark tar cabextract p7zip
 
