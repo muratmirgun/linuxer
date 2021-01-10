@@ -81,7 +81,6 @@ sudo pacman --noconfirm -S zathura zathura-pdf-mupdf
 sudo pacman --noconfirm -S firefox
 
 # gui code editor
-sudo pacman --noconfirm -S code
 yay --noconfirm -S visual-studio-code-bin
 
 # spotify
