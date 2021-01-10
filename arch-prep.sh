@@ -82,6 +82,7 @@ sudo pacman --noconfirm -S firefox
 
 # gui code editor
 sudo pacman --noconfirm -S code
+yay --noconfirm -S visual-studio-code-bin
 
 # spotify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
