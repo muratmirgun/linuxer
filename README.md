@@ -1,8 +1,14 @@
-# Linux Install Scripts
-## Ubuntu script , arch prep script and blackarch repo add scripts 
-<code>strap.sh</code>  dosyası ile blackarch keyring yüklemesi yapabilirsin.
-edit command '#' lines and select packages
-## packages including
+# My Linux Scripts     
+
+<img alt="GitHub Stars" src="https://img.shields.io/github/stars/MuratSs/my-linux-prep?style=for-the-badge">    
+
+### Vimrc install script, Arch prep script and BlackArch repo add scripts   
+   
+
+### ***edit command '#' lines and select packages***
+
+<details>
+<summary>Arch Prep Included Packs</summary>
 * xclip               
 * neovim
 * neofetch            
@@ -48,3 +54,5 @@ edit command '#' lines and select packages
 * elixir
 * kclac               
 * zsh 
+
+</details>
