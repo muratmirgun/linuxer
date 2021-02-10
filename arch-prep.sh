@@ -41,10 +41,10 @@ sudo pacman --noconfirm -S nvidia nvidia-utils
 sudo pacman --noconfirm -S arandr
 
 # for dmenu
-# sudo pacman --noconfirm -S dmenu 
+ sudo pacman --noconfirm -S dmenu 
 
 # for rofi
-#sudo pacman --noconfirm -S rofi
+sudo pacman --noconfirm -S rofi
 #
 # for bspwm configs
 #mkdir -p ~/.config/bspwm
@@ -67,8 +67,8 @@ sudo pacman --noconfirm -S nemo
 sudo pacman --noconfirm -S sxiv
 sudo pacman --noconfirm -S vlc
 sudo pacman --noconfirm -S pulseaudio
-#sudo pacman --noconfirm -S pavucontrol
-#sudo pacman --noconfirm -S mate-utils # ss
+sudo pacman --noconfirm -S pavucontrol
+sudo pacman --noconfirm -S mate-utils  ss
 sudo pacman --noconfirm -S peek
 sudo pacman --noconfirm -S mpv
 
