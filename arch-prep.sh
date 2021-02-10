@@ -34,9 +34,9 @@ sudo pacman --noconfirm -S nvidia nvidia-utils
 # sudo pacman --noconfirm -S xf86-video-intel
 
 # for vm 
-# sudo pacman --noconfirm -S xf86-video-qxl
+ sudo pacman --noconfirm -S xf86-video-qxl
 # bspwm 
-# sudo pacman --noconfirm -S xorg xorg-xinit bspwm picom polybar sxhkd
+ sudo pacman --noconfirm -S xorg xorg-xinit bspwm picom polybar sxhkd
 #for multiple monitors
 sudo pacman --noconfirm -S arandr
 
@@ -60,8 +60,8 @@ sudo pacman --noconfirm -S alacritty
 sudo pacman --noconfirm -S nitrogen
 
 # file managers
-#yay --noconfirm -S lf
-#sudo pacman --noconfirm -S nemo
+yay --noconfirm -S lf
+sudo pacman --noconfirm -S nemo
 
 # for media
 sudo pacman --noconfirm -S sxiv
