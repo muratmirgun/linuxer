@@ -19,6 +19,7 @@ cd packages
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
+cd ~
 
 # font
 yay --noconfirm -S nerd-fonts-hack
