@@ -10,14 +10,15 @@ sudo pacman --noconfirm -S neofetch
 # curl
 sudo pacman --noconfirm -S curl
 
-# git and yay
+# git and paru
 sudo pacman --noconfirm -S git
+sudo pacman --noconfirm -S --needed base-devel
 cd ~/
 mkdir packages
 cd packages
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si PKGBUILD
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 cd ~
 
 # font
