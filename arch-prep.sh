@@ -22,9 +22,9 @@ makepkg -si
 cd ~
 
 # font
-yay --noconfirm -S nerd-fonts-hack
-yay --noconfirm -S otf-font-awesome-5-free
-yay --noconfirm -S ttf-scientifica
+paru --noconfirm -S nerd-fonts-hack
+paru --noconfirm -S otf-font-awesome-5-free
+paru --noconfirm -S ttf-scientifica
 # amd driver
 # sudo pacman --noconfirm -S xf86-video-amdgpu
 
@@ -61,7 +61,7 @@ sudo pacman --noconfirm -S alacritty
 sudo pacman --noconfirm -S nitrogen
 
 # file managers
-yay --noconfirm -S lf
+paru --noconfirm -S lf
 sudo pacman --noconfirm -S nemo
 
 # for media
@@ -82,18 +82,18 @@ sudo pacman --noconfirm -S zathura zathura-pdf-mupdf
 sudo pacman --noconfirm -S firefox
 
 # gui code editor
-yay --noconfirm -S visual-studio-code-bin
+paru --noconfirm -S visual-studio-code-bin
 
 # spotify
 curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
-yay --noconfirm -S spotify
+paru --noconfirm -S spotify
 
 # for archiving tools
 sudo pacman --noconfirm -S unzip unrar ark tar cabextract p7zip
 
 # for discord
 sudo pacman --noconfirm -S discord
-yay --noconfirm -S cordless-git
+paru --noconfirm -S cordless-git
 
 # for office programs
 sudo pacman --noconfirm -S libreoffice
