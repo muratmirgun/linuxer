@@ -2,7 +2,7 @@
 
 <img alt="GitHub Stars" src="https://img.shields.io/github/stars/MuratSs/my-linux-prep?style=for-the-badge">    
 
-### Vimrc install script, Arch prep script and BlackArch repo add scripts   
+### Vimrc install script,Zshrc Added, Arch prep script and BlackArch repo add scripts   
    
 
 ### ***edit command '#' lines and select packages***
