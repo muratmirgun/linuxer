@@ -62,7 +62,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/muratmirgun) - email@example.com
+Your Name - [@muratmirgun](https://twitter.com/muratmirgun) - muratmirgunercan225@gmail.com
 
 Project Link: [https://github.com/muratmirgun/linuxer](https://github.com/muratmirgun/linuxer)
 
