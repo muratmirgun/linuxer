@@ -62,6 +62,10 @@ alias apa="sudo apt autoremove -y "
 fzfcd() {
   cd `fd . ~ -t d | fzf --preview='tree -L {}'`
 }
+_git_dbg() {
+  echo >&2 "$(tput setaf 1)+ git $@$(tput sgr0)"
+  git "$@"
+}
 # git aliases
 alias gc='_git_dbg commit -S -v -s'
 alias gdc='_git_dbg diff --cached'
